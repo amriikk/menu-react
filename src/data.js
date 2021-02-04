@@ -16,6 +16,7 @@ const menu = [
       category: 'lunch',
       price: 13.99,
       img: './images/item-2.jpeg',
+      img: 'https://raw.githubusercontent.com/john-smilga/react-projects/master/5-menu/final/public/images/item-2.jpeg',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
