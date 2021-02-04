@@ -8,12 +8,12 @@ const Menu = ({ items }) => {
                 return (
                     <article key={id} className='menu-item'>
                         <img src={img} alt={title} className='photo' />
-                        <div>
+                        <div className='item-info'>
                             <header>
-                                <h4></h4>
-                                <h4></h4>
+                                <h4>{ title }</h4>
+                                <h4>{ desc }</h4>
                             </header>
-                            <p></p>
+                            <p className='item-text'>{ desc }</p>
                         </div>
                     </article>
                 );
